@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/styles": "^3.0.0-alpha.10",
+    "chroma-js": "^2.1.0",
+    "rc-slider": "^8.7.1",
     "react": "^16.11.0",
+    "react-color": "^2.17.0",
+    "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-material-ui-form-validator": "^2.0.9",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-sortable-hoc": "^1.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
