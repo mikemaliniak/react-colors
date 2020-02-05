@@ -40,7 +40,10 @@ const styles = theme => ({
         marginRight: 20,
       },
       navBtns: {
-        marginRight: "1rem"
+        marginRight: "1rem",
+        "& a": {
+            textDecoration: "none"
+        }
       },
       button: {
           margin: "0 0.5rem",
@@ -99,7 +102,7 @@ class PaletteFormNav extends Component {
             </Toolbar>
             <div className={classes.navBtns}>
                 <Button variant="contained" color="primary" onClick={this.showForm} className={classes.button}>
-                    Open form dialog
+                    Save
                 </Button>
                 <Link to="/" className={classes.link}>
                     <Button variant="contained" color="secondary" className={classes.button}>
